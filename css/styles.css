@@ -253,6 +253,18 @@ img {
   margin-top: 6px;
 }
 
+.fact-card--link {
+  display: block;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.fact-card--link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(20, 44, 70, 0.14);
+  border-color: var(--gold);
+}
+
 /* Tenant cards */
 .tenant-grid {
   display: grid;
