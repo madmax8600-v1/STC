@@ -15,8 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var contactForm = document.getElementById("contact-form");
   if (contactForm) {
-    // No leasing inbox has been provided yet; update LEASING_EMAIL once one exists.
-    var LEASING_EMAIL = "";
+    var LEASING_EMAIL = "SocasteeTownCenter@gmail.com";
 
     contactForm.addEventListener("submit", function (event) {
       event.preventDefault();
